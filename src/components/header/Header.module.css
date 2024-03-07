@@ -1,0 +1,38 @@
+header{
+    background-color: aquamarine;
+    position: relative;
+    top: 0px;
+}
+.h_content{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(173, 173, 173);
+    height: 90px;
+}
+.content_h_link{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+.h_link{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 17px;
+}
+.h_link:hover{
+    background-color: aquamarine;
+    transition: .2s;
+}
